@@ -1,4 +1,4 @@
-/* General Page Styling */
+
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     background-color: #f4f7f6;
@@ -20,7 +20,7 @@ header {
     margin-bottom: 30px;
 }
 
-/* Grid Layout for Players */
+
 .player-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -29,7 +29,6 @@ header {
     max-width: 1000px;
 }
 
-/* Individual Player Card */
 .player-card {
     background: white;
     border-radius: 15px;
@@ -86,7 +85,7 @@ header {
     border-bottom: 1px dotted #eee;
 }
 
-/* Price Button */
+
 .value-btn {
     display: block;
     background-color: #27ae60;
@@ -102,3 +101,39 @@ header {
 .value-btn:hover {
     background-color: #219150;
 }
+
+ /* This container turns the list into a horizontal line */
+  .navbar {
+    display: flex;
+    background-color: yellow; /* Matches your image background */
+    padding: 10px;
+    list-style-type: none; /* Removes the bullet points */
+    margin: 0;
+  }
+
+  /* This adds spacing between the words */
+  .navbar li {
+    margin-right: 20px;
+  }
+
+  /* This styles the links (blue and underlined like your image) */
+  .navbar a {
+    color: blue;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+
+
+
+
+
+
+
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Services</a></li>
+  <li><a href="#">prediction</a></li>
+  <li><a href="#">transfer</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Contact Us</a></li>
+</ul>
